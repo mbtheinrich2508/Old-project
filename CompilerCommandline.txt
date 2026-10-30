@@ -1,0 +1,5 @@
+#This line can be used in the terminal window of Visual Studio Code in order to compile P6_main.ccp and create the executable P6_main.exe:
+g++ -std=c++17 -I iir1-master -o P6_Main.exe  P6_Main.cpp iir1-master/iir/*.cpp
+
+#The  resulting executable can be executed in the terminal window by: 
+./P6_main.exe
